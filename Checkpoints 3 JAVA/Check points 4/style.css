@@ -1,0 +1,13 @@
+.controle{
+    position: relative;
+  }
+.dropdown2{
+
+    display: inline;
+    position: absolute;
+  } 
+  .dropdown{
+   /* width:5% ;*/
+    display: inline;
+    padding-right: 0.3%;
+  } 

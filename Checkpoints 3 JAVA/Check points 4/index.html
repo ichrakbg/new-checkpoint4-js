@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p id="para">
+    La Tunisie est un pays d'Afrique du Nord situé sur la côte méditerranéenne et en bordure du désert du Sahara. Le musée national du Bardo à Tunis, la capitale, expose des pièces archéologiques allant des mosaïques romaines à l'art islamique. Le quartier de la Médina, avec son souk animé, encercle l'imposante mosquée Zitouna. À l'est, sur le site de l'ancienne cité de Carthage, se trouvent les thermes d'Antonin et d'autres ruines, et le musée national de Carthage et ses nombreux objets.
+</p>
+<div class="controle">
+    <button id="gras" onclick="changeSize()">
+        Bold
+    </button>
+    <button id="italique" onclick="changeStyle()" >
+        Italic
+    </button>
+    <button id="souligner" onclick="changeUnderline()">
+        Underline
+    </button>
+    <div class="dropdown">
+            <select onchange="myFunction()" id="dropbtn">
+                
+                    <option>Fantasy</option>
+                    <option>Monospace</option> 
+                    <option>Cursive</option>
+            </select>
+    </div>
+    <div class="dropdown2">
+            <select onchange="myFunction2()" id="dropbtn2">
+            
+                    <option >20px</option>
+                    <option >30px</option> 
+                    <option >40px</option>
+            </select>
+    </div>
+
+</div>
+</body>
+<script src="js/main.js"></script>
+</html>
+
